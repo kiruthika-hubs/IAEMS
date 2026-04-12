@@ -1,19 +1,67 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎓 Integrated Academic & Examination Management System (IAEMS)
 
-# Run and deploy your AI Studio app
+A modern, role-based academic management platform built using **React and Firebase** to efficiently manage students, certificates, and placement drives.
 
-This contains everything you need to run your app locally.
+---
 
+## 🚀 Features
 
-## Run Locally
+- 🔐 Role-Based Access (Admin & Student)  
+- 📊 Dashboard with analytics  
+- 📁 Digital Certificate Vault  
+- 🤖 Automatic CGPA & Certificate Categorization  
+- 🏢 Placement Drive Management  
+- 📱 Fully Responsive UI  
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend:** React (Vite), Tailwind CSS  
+- **Routing:** React Router  
+- **Backend:** Firebase (Authentication, Firestore, Storage)  
+- **Charts:** Chart.js  
+
+---
+
+## 👨‍🎓 User Roles
+
+### Student
+- Upload & manage certificates  
+- View dashboard and stats  
+- Apply for placement drives  
+
+### Admin
+- Manage students and CGPA  
+- Create placement drives  
+- View analytics and applicants  
+
+---
+## 📂 Project Structure
+
+```
+src/
+├── components/
+├── pages/
+├── layouts/
+├── routes/
+├── services/
+├── firebase/
+```
+
+---
+
+## 🔥 Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/iaems.git
+
+# Navigate into project folder
+cd iaems
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
