@@ -1,132 +1,131 @@
-# 🎓 Integrated Academic & Examination Management System (IAEMS)
+# Integrated Academic & Examination Management System (IAEMS)
 
-> A smart, centralized platform to automate academic operations, examination workflows, certificate management, and placement processes using a role-based system.
-
----
-
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Unique Highlights](#-unique-highlights)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Installation & Setup](#-installation--setup)
-
+A centralized, intelligent platform designed to automate academic operations, streamline examination workflows, manage certifications, and optimize placement processes through a secure role-based architecture.
 
 ---
 
-## 🚀 Overview
+## Table of Contents
 
-The **Integrated Academic & Examination Management System (IAEMS)** is a full-stack web application developed to digitize and streamline academic and administrative processes in educational institutions.
-
-It provides a unified platform for:
-
-- Students
-- Administrators
-- Placement Coordinators
-
-By integrating all operations into one system, IAEMS reduces manual workload, improves efficiency, and enhances transparency.
+- Overview  
+- Features  
+- Unique Highlights  
+- Tech Stack  
+- Project Structure  
+- Installation & Setup  
 
 ---
 
-## ✨ Features
+## Overview  
 
-### 🎯 Placement Drive Management
-- Create and manage placement drives
-- Define eligibility criteria (CGPA, department, batch)
-- Automatic filtering of eligible students
-- Track student applications in real-time
+The Integrated Academic & Examination Management System (IAEMS) is a full-stack web application developed to digitize and enhance academic and administrative processes within educational institutions.
 
-### 📊 Certificate Management & Analysis
-- Upload and store student certificates
-- Categorize students based on certification strength
-- Enable faster and smarter placement shortlisting
+It provides a unified interface for:
 
-### 📈 Academic Filtering System
-- Filter students based on CGPA
-- Identify top-performing candidates instantly
-- Generate dynamic eligibility lists
+- Students  
+- Administrators  
+- Placement Coordinators  
 
-### 🔐 Role-Based Authentication
-- Secure login system using Firebase Authentication
+By consolidating multiple workflows into a single platform, IAEMS significantly reduces manual effort, improves operational efficiency, and ensures transparency across all academic activities.
+
+---
+
+## Features  
+
+### Placement Drive Management  
+- Create and manage placement drives  
+- Define eligibility criteria (CGPA, department, batch)  
+- Automatically filter eligible students  
+- Track student applications in real time  
+
+### Certificate Management and Analysis  
+- Upload and manage student certificates  
+- Categorize students based on certification strength  
+- Enable efficient and data-driven shortlisting  
+
+### Academic Filtering System  
+- Filter students based on CGPA  
+- Identify high-performing candidates instantly  
+- Generate dynamic eligibility lists  
+
+### Role-Based Authentication  
+- Secure authentication using Firebase  
 - Role-specific dashboards:
-  - Admin
-  - Student
-  - Placement Coordinator
-- Protected routes and access control
+  - Administrator  
+  - Student  
+  - Placement Coordinator  
+- Protected routes and controlled access  
 
-### ⚡ Real-Time Database Integration
-- Powered by Firebase Firestore
-- Instant updates without page reload
-- Secure and scalable cloud-based storage
+### Real-Time Database Integration  
+- Powered by Firebase Firestore  
+- Instant updates without page reload  
+- Secure and scalable cloud-based data storage  
 
-### 💻 Modern UI/UX
-- Clean and responsive interface
-- Optimized for desktop and mobile devices
-- Intuitive dashboard experience
-
----
-
-## 🔥 Unique Highlights
-
-- 🚀 Automated placement eligibility filtering system
-- 🧠 Intelligent certificate-based student categorization
-- 🔐 Fully role-based secure architecture
-- ⚡ Real-time data synchronization using Firestore
-- 📊 Data-driven academic and placement decisions
-- 🏗️ Scalable and production-ready system design
+### User Interface and Experience  
+- Clean and responsive design  
+- Optimized for both desktop and mobile devices  
+- Intuitive dashboard and navigation  
 
 ---
 
-## 🛠️ Tech Stack
+## Unique Highlights  
 
-### Frontend
-- React.js
-- TypeScript
-
-### Backend & Database
-- Firebase Authentication
-- Firebase Firestore
-
-### Tools & Environment
-- Vite
-- Git & GitHub
+- Automated placement eligibility filtering system  
+- Intelligent certificate-based student categorization  
+- Secure role-based system architecture  
+- Real-time data synchronization using Firestore  
+- Data-driven academic and placement decision support  
+- Scalable and production-ready system design  
 
 ---
 
-## 📁 Project Structure
+## Tech Stack  
+
+### Frontend  
+- React.js  
+- TypeScript  
+
+### Backend and Database  
+- Firebase Authentication  
+- Firebase Firestore  
+
+### Tools and Environment  
+- Vite  
+- Git and GitHub  
+
+---
+
+## 📁 Project Structure  
 ```
 src/
-├── components/ 
-├── pages/ 
+├── components/
+├── pages/
 ├── layouts/
-├── routes/ 
-├── services/ 
+├── routes/
+├── services/
 ├── firebase/
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation and Setup  
 
-### 1. Clone the Repository
+### Clone the Repository  
 ```bash
 git clone https://github.com/your-username/iaems.git
 
-2️⃣ Navigate to Project Folder
+Navigate to Project Folder
 cd iaems
 
-3️⃣ Install Dependencies
+Install Dependencies
 npm install
 
-4️⃣ Setup Firebase
+Setup Firebase
 1.Go to Firebase Console
 2.Create a new project
-3.Copy your Firebase config and replace it in:
-  src/firebase/config.ts
+3.Copy your Firebase configuration and replace it in:
+src/firebase/config.ts
 
-Example config:
+Example configuration:
 
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
@@ -137,9 +136,9 @@ const firebaseConfig = {
   appId: "XXXXXX"
 };
 
-5️⃣ Run the Application
+Run the Application
 npm run dev
 
-6️⃣ Open in Browser
+Open in Browser
 http://localhost:3000
 
